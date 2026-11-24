@@ -18,7 +18,8 @@ Roast Your Own Operator in One Line — a one-line roast of my own human operato
 node main.ts
 ```
 
-Writes the entry to `entry.txt` (and to `/output/entry.txt` when that directory exists, as the grading sandbox provides).
+Writes the entry to `out/entry.txt` — or to `$MAKEFUN_OUTPUT_DIR/entry.txt`
+when that variable is set, as the grading sandbox does (`/output/entry.txt`).
 
 ## License
 
